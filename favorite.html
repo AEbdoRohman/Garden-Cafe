@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalis file  -->
+    <link rel="stylesheet" href="Css/normalis">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- goggle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+    <title>The Garden Cafe</title>
+</head>
+<body >
+    <!-- ---------------- header section start ---------------- -->
+    <header class="header">
+        <a href="" class="logo"><i class="fa-solid fa-store logo-store"></i>The Garden Cafe</a>
+        <nav class="navbar">
+            <a href="index.html#home" class="list active">home</a>
+            <a href="index.html#about" class="list">about</a>
+            <a href="index.html#popular" class="list">popular</a>
+            <a href="index.html#menu" class="list">menu</a>
+            <a href="index.html#order" class="list">order</a>
+            <a href="index.html#blogs" class="list">blogs</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn"><i class="fa-solid fa-bars"></i></div>
+            <div id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div id="cart-btn"><i class="fa-solid fa-cart-shopping"></i></div>
+            <div id="login-btn"><i class="fa-regular fa-user"></i></div>
+            <div id="toggle-btn"><i class="fas fa-moon mood"></i></div>
+        </div>
+    </header>
+    <!-- ---------------- header section end ---------------- -->
+    <!-- ---------------- search form section start ---------------- -->
+    <section class="search-from-container">
+        <form action="">
+            <input type="search" name="" placeholder="search hear..." id="search-box">
+            <label for="search-box"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </form>
+    </section>
+    <!-- ---------------- search form section end ---------------- -->
+    <!-- ---------------- shopping-cart section start ---------------- -->
+    <section class="shopping-cart-container">
+        <div class="products-container">
+            <h3 class="title">Your Products</h3>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa-solid fa-xmark close-icon"></i>
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>Delicious Food</h3>
+                        <span>Quantity :</span>
+                        <input type="number" name="Quantity" min="1" value="1" id="">
+                        <br>
+                        <span>Price :</span>
+                        <span class="price">$ 40.00</span>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-xmark close-icon"></i>
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>Delicious Food</h3>
+                        <span>Quantity :</span>
+                        <input type="number" name="Quantity" min="1" value="1" id="">
+                        <br>
+                        <span>Price :</span>
+                        <span class="price">$ 29.00</span>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-xmark close-icon"></i>
+                    <img src="image/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>Delicious Food</h3>
+                        <span>Quantity :</span>
+                        <input type="number" name="Quantity" min="1" value="1" id="">
+                        <br>
+                        <span>Price :</span>
+                        <span class="price">$ 23.00</span>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-xmark close-icon"></i>
+                    <img src="image/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>Delicious Food</h3>
+                        <span>Quantity :</span>
+                        <input type="number" name="Quantity" min="1" value="1" id="">
+                        <br>
+                        <span>Price :</span>
+                        <span class="price">$ 32.00</span>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-xmark close-icon"></i>
+                    <img src="image/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>Delicious Food</h3>
+                        <span>Quantity :</span>
+                        <input type="number" name="Quantity" min="1" value="1" id="">
+                        <br>
+                        <span>Price :</span>
+                        <span class="price">$ 38.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3 class="title">cart total</h3>
+            <div class="box">
+                <h3 class="subtitle">
+                    Subtitle :
+                    <span>$ 200</span>
+                </h3>
+                <h3 class="total">
+                    Total :
+                    <span>$ 200</span>
+                </h3>
+                <button class="btn">Proceed To Checkout</button>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------- shopping-cart section end ---------------- -->
+    <!-- ---------------- login-form start ---------------- -->
+    <div class="login-form">
+        <div class="form open" id="login">
+            <form action="">
+                <h3>login-form</h3>
+                <input type="email" placeholder="enter your email" name="the email" class="box">
+                <div class="input-fild">
+                    <input type="password" placeholder="enter your password" name="password" class="box">
+                <i class="fas fa-eye-slash eye"></i>
+                </div>
+                <div class="remember">
+                    <div class="data">
+                        <input type="checkbox" name="checkbox" id="remember-me">
+                        <label for="remember-me">remember me</label>
+                    </div>
+                </div>
+                <input type="submit" value="login now" class="btn">
+            </form>
+            <p>Forget Password? <button class="botn"> Click Here</button></p>
+            <p> Donot Have An Account? <button class="botn" data-target-tab="#signin"> Create One</button></p>
+        </div>
+        <div class="form" id="signin">
+            <form action="" >
+                <h3>singin</h3>
+                <input type="text" placeholder="first name" name="first name" class="box">
+                <input type="text" placeholder="last name" name="last name"  class="box">
+                <input type="email" placeholder="enter your email" name="the email" class="box">
+                <div class="input-fild">
+                    <input type="password" placeholder="enter your password" name="password" class="box">
+                <i class="fas fa-eye-slash eye"></i>
+                </div>
+                <div class="remember">
+                    <div class="data">
+                        <input type="radio" name="time" id="mail" checked>
+                        <label for="mail">mail</label>
+                    </div>
+                    <div class="data">
+                        <input type="radio" name="time" id="femail" >
+                        <label for="femail">femail</label>
+                    </div>
+                </div>
+                <input type="submit" value="sing In" class="btn">
+            </form>
+                <p> you Have An Account? <button class="botn" data-target-tab="#login"> login</button></p>
+        </div>
+    </div>
+    <!-- ---------------- Favorite section start  ---------------- -->
+    <section class="favorite" id="favorite">
+        <div class="heading">
+            <span>Favorite Food</span>
+            <h3>Our Favorite Dishes</h3>
+        </div>
+        <div class="box-container">
+
+        </div>
+    </section>
+    <!-- ---------------- Favorite section End  ---------------- -->
+    <!-- ---------------- footer section start  ---------------- -->
+    <section class="footer">
+        <div class="newsletter">
+            <h3>newsletter</h3>
+            <form action="">
+                <input type="email" placeholder="enter your email" name="teh mail">
+                <input type="submit" value="subscribe">
+            </form>
+        </div>
+        <div class="other-links">
+            <div class="box">
+                <h3>our menu</h3>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>pizza</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>burger</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>chicken</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>pasta</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>and more..</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html#home"><i class="fas fa-arrow-right arrow-r"></i>home</a>
+                <a href="index.html#about"><i class="fas fa-arrow-right arrow-r"></i>about</a>
+                <a href="index.html#popular"><i class="fas fa-arrow-right arrow-r"></i>popular</a>
+                <a href="index.html#menu"><i class="fas fa-arrow-right arrow-r"></i>menu</a>
+                <a href="index.html#order"><i class="fas fa-arrow-right arrow-r"></i>order</a>
+                <a href="index.html#blogs"><i class="fas fa-arrow-right arrow-r"></i>blogs</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>my order</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>my account</a>
+                <a href="favorite.html"><i class="fas fa-arrow-right arrow-r"></i>my favorite</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>terms of use</a>
+                <a href=""><i class="fas fa-arrow-right arrow-r"></i>privacy policy</a>
+            </div>
+            <div class="box">
+                <h3>opening hours</h3>
+                <a href="">monday : 7:am to 10:pm</a>
+                <a href="">tuesday : 7:am to 10:pm</a>
+                <a href="">wednesday : 7:am to 10:pm</a>
+                <a href="">friday : 7:am to 10:pm</a>
+                <a href="">saturday and sunday closed</a>
+            </div>
+        </div>
+        <div class="the-end-bottom">
+            <div class="icon-shear">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="text">
+                Created <span>Code With me </span>| All Rights Reserved!
+            </div>
+        </div>
+    </section>
+    <!-- ---------------- footer section end  ---------------- -->
+    <script src="main.js"></script>
+</body>
+</html>
